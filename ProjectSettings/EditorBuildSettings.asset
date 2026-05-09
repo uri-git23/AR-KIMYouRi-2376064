@@ -8,5 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SamplesResources/Scenes/0-Main.unity
     guid: a09cb257d566c489595b16ab37547666
+  - enabled: 1
+    path: Assets/HW18_AR_Test/HW18_AR_Test.unity
+    guid: 2fe9996e6fcb5f74caa8ded0e961a8df
   m_configObjects: {}
-  m_UseUCBPForAssetBundles: 0

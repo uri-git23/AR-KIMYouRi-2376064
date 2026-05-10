@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 2086196720}
   - component: {fileID: 2086196719}
   - component: {fileID: 2086196718}
-  - component: {fileID: 2086196717}
+  - component: {fileID: 2086196721}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -460,25 +460,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2086196717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086196716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2086196719}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Image1
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 2086196719}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &2086196718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -538,18 +519,18 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Image1
+  mTrackableName: poster3
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.4820001
+  mAspectRatio: 1.4905386
   mImageTargetType: 3
-  mWidth: 0.13495277
+  mWidth: 0.1341797
   mHeight: 0.20000002
-  mRuntimeTexture: {fileID: 2800000, guid: a5e6cb89f5742f44d938116f1eda32e5, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 6d8ddccbff116314483053d8bc3e8bbe, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2086196717}
+  mPreview: {fileID: 2086196721}
 --- !u!4 &2086196720
 Transform:
   m_ObjectHideFlags: 0
@@ -566,6 +547,25 @@ Transform:
   - {fileID: 978910709}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2086196721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086196716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2086196719}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: poster3
+  mDatasetName: 
+  mCastedBehaviour: {fileID: 2086196719}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

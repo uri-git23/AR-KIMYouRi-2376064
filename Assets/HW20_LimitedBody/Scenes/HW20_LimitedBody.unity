@@ -814,6 +814,9 @@ GameObject:
   - component: {fileID: 516495835}
   - component: {fileID: 516495834}
   - component: {fileID: 516495832}
+  - component: {fileID: 516495837}
+  - component: {fileID: 516495838}
+  - component: {fileID: 516495839}
   m_Layer: 0
   m_Name: DraggableObject
   m_TagString: Untagged
@@ -934,6 +937,44 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516495830}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &516495837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516495830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15156cd19a8aced469b2dbdf950a769e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &516495838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516495830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b666cb38884124bb15c58d209cf20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapTag: SnapPoint
+  snapPreviewColor: {r: 0, g: 1, b: 0, a: 1}
+--- !u!114 &516495839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516495830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a283de1ca70f3eb4e9dbbefa3c198ba5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &572076144
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +1019,7 @@ GameObject:
   - component: {fileID: 809280057}
   - component: {fileID: 809280056}
   - component: {fileID: 809280059}
+  - component: {fileID: 809280060}
   m_Layer: 0
   m_Name: LerpCube
   m_TagString: Untagged
@@ -1098,6 +1140,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &809280060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809280054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3105a70cdbf9d074ea68e62815439586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPoints:
+  - {fileID: 2095563395}
+  - {fileID: 1351984643}
+  - {fileID: 572076145}
+  lerpSpeed: 0.05
 --- !u!1 &976492747
 GameObject:
   m_ObjectHideFlags: 0
